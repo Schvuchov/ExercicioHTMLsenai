@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body bgcolor="cadetblue">
+    <center>
+        <h3>Cálculo de média ponderada</h3><br>
+
+        <table style="border: solid 5px cadetblue; border-collapse: collapse;">
+        
+            <tr style="border: solid 5px cadetblue;">
+                <th></th>
+                <th></th>
+                <th>Peso</th>
+                <th>Nota</th>
+                
+            </tr>
+
+            <tr>
+                <td><b>Atividade 1:</b></td>
+                <td style="border: solid 5px cadetblue;"><input type="text" placeholder="Nome da Atividade"></td>
+                <td style="border: solid 5px cadetblue;"><input id="p1" type="number" placeholder="peso1" min="0" max="10"></td>
+                <td style="border: solid 5px cadetblue;"><input id="n1" type="number" placeholder="nota1" min="0" max="10"></td> 
+            </tr>
+
+            <tr>
+                <td><b>Atividade 2:</b></td>
+                <td style="border: solid 5px cadetblue;"><input type="text" placeholder="Nome da Atividade"></td>
+                <td style="border: solid 5px cadetblue;"><input id="p2" type="number" placeholder="peso2" min="0" max="10"></td>
+                <td style="border: solid 5px cadetblue;"><input id="n2" type="number" placeholder="nota2" min="0" max="10"></td>
+            </tr>
+
+            <tr>
+                <td><b>Atividade 3:</b></td>
+                <td style="border: solid 5px cadetblue;"><input type="text" placeholder="Nome da Atividade"></td>
+                <td style="border: solid 5px cadetblue;"><input id="p3" type="number" placeholder="peso3" min="0" max="10"></td>
+                <td style="border: solid 5px cadetblue;"><input id="n3" type="number" placeholder="nota3" min="0" max="10"></td>
+            </tr>
+    
+        </table>
+
+        <br><br>
+        <button onclick="nota()">Média AQUI!</button>
+
+
+    </center>
+
+    <script src="nota.js"></script>
+    
+</body>
+</html>
